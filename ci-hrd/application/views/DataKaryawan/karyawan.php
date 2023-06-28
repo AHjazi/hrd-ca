@@ -24,6 +24,7 @@
                             <table class="table table-hover data">
                                 <thead>
                                     <tr>
+                                        <th>Nama</th>
                                         <th>Alamat KTP</th>
                                         <th>Alamat Domisili</th>
                                         <th>Agama</th>
@@ -37,6 +38,7 @@
                                         <th>Jabatan</th>
                                         <th>Status Karyawan Terakhir</th>
                                         <th>Golongan</th>
+                                        <th>Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -52,6 +54,7 @@
                                         <td>d</td>
                                         <td>d</td>
                                         <td>d</td>
+                                        <td></td>
                                         <td>d</td>
                                         <td>d</td>
                                         <td><a href="<?php echo base_url('DataKaryawan/detailkaryawan')?>"><button
